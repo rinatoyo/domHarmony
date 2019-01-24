@@ -36,6 +36,11 @@ data.appendChild(divHobbies);
 
 //7. In the div id data section, create a div with an id of location and give it the following information: Honolulu, HI.
 
+var divLoc = document.createElement('div');
+divLoc.id = 'wants';
+divLoc.innerHTML = 'Looking for a Mrs. McDonald.';
+data.appendChild(divLoc);
+
 //8. In the div id data section, create a div with an id of wants and give it the following information: Looking for a Mrs. McDonald.
 
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
