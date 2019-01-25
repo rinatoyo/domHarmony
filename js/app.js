@@ -52,12 +52,18 @@ data.appendChild(divWants);
 
 var aboutMe = document.createElement('p');
 aboutMe.id = 'pro2';
-aboutMe.innerHTML = "I like picnics by the beach with some good ol' Big Mac Meal Combo and Oreo McFlurry. I love kids and animals.";
+aboutMe.innerHTML = "I like long romantic walks and picnics by the beach with any meal combo you'd like from McDonalds. I also love kids and animals.";
 profile.appendChild(aboutMe);
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
 
+var nameElem = document.getElementsByClassName('firstName');
+nameElem[0].innerHTML = 'Wendy';
+
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
+
+var ageElem = document.getElementsByClassName('otherAge');
+ageElem[0].innerHTML = 48;
 
 //12. In the div id matches section, target the first div element with the class name of status and change Status to Single Mother.
 
